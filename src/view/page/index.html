@@ -1,0 +1,33 @@
+<%= require('html-loader!../layout/header.html')  %>
+    <div class="main-container">
+        <div class="banner">
+            <img src="<%= require('~static/image/banner.jpg')  %>" alt="" style="margin-left: -960px; display: block;">
+        </div>
+
+        <div class="news-container">
+            <ul>
+                <li class="new-item">
+                    <h3>小菜的简介</h3>
+                    <p>
+                        土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介
+                    </p>
+                </li>
+                <li class="new-item">
+                    <h3>小菜的简介</h3>
+                    <p>
+                        土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介土小菜的简介
+                    </p>
+                </li>
+                <li class="new-item last">
+                    <h3>小菜技术研究发展</h3>
+                    <p>
+                        <img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1975817050,109158774&fm=173&app=25&f=JPEG?w=550&h=422&s=55A49655007BC3C60C847D49030030FA" alt="">
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+            document.querySelector('[data-type="index"]').className += " active"; 
+    </script>
+    <%= require('html-loader!../layout/footer.html')  %>

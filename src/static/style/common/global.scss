@@ -1,0 +1,126 @@
+html {
+  overflow-y: scroll;
+  overflow: hidden / 9;
+}
+
+body {
+  background-color: #fff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  color: #333;
+  font: 12px/1.5 'Microsoft YaHei', 'Source Han Sans SC', 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', '微软雅黑', 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+
+ul,
+ol,
+dl {
+  list-style: none;
+}
+
+a {
+  color: #666;
+  font-family: 'Microsoft YaHei', 'Source Han Sans SC', 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', '微软雅黑', 'Arial', sans-serif;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+/* 重置链接a标签的鼠标滑动效果 */
+img {
+  border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  font-family: 'Microsoft YaHei', 'Source Han Sans SC', 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', '微软雅黑', 'Arial', sans-serif;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  display: block;
+  height: 0;
+  clear: both;
+  content: '\0020';
+  visibility: hidden;
+}
+
+.ect {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

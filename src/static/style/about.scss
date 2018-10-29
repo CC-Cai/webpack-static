@@ -1,0 +1,22 @@
+@import './common/common.scss';
+
+.main-container {
+  width: 100%;
+  overflow: hidden;
+  min-width: $viewWidth;
+  // height: 560px;
+
+  .news-container {
+    width: $viewWidth;
+    padding: 30px 0 70px;
+    margin: 0 auto;
+
+    p {
+      font-size: 14px;
+      color: #666666;
+      letter-spacing: 0;
+      line-height: 28px;
+      margin-top: 30px;
+    }
+  }
+}
